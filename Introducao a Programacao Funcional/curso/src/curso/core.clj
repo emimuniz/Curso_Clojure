@@ -1,3 +1,3 @@
-(ns teste.core)
+(ns curso.core)
 
 (println "Ola Mundo!")

@@ -1,4 +1,4 @@
-(ns teste.aula2)
+(ns curso.aula2)
 
 (defn imprime-mensagem []
   (println "------------------------")

@@ -1,4 +1,4 @@
-(ns teste.aula3)
+(ns cruso.aula3)
 
 (defn valor-descontado
   "Retorna o valor com desconto de 10% se o valor bruto for estritamente maior que 100."

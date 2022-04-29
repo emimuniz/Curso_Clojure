@@ -1,4 +1,4 @@
-(ns teste.aula4)
+(ns curso.aula4)
 
 (def precos [30 700 1000])
 

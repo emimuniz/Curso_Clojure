@@ -1,4 +1,4 @@
-(ns teste.aula5)
+(ns curso.aula5)
 
 (def estoque {"Mochila" 10, "Camiseta" 5})
 
