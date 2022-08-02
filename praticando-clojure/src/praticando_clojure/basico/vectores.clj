@@ -14,8 +14,8 @@
 (defn contando-quantidade-numeros [vector]
   (count vector))
 
-(defn manipulando-vector-com-map [vector]
-  (vec (map basico.operadores/numero-quadrado vector)))
+(defn manipulando-vector-com-map [vector])
+  ;(vec (map basico.operadores/numero-quadrado vector)))
 
 (defn pegando-elemento-vector [vector index]
   (get vector index))
@@ -28,6 +28,3 @@
 
 (defn incluindo-novos-elementos-vector [vector elemento]
   (conj vector elemento))
-
-
-

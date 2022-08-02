@@ -4,11 +4,13 @@
             [praticando-clojure.basico.listas :as basico.listas]
             [praticando-clojure.basico.vectores :as basico.vectores]
             [praticando-clojure.basico.hash-set :as basico.hash-set]
-            [praticando-clojure.basico.keywords :as basico.keywords]))
+            [praticando-clojure.basico.keywords :as basico.keywords]
+            [praticando-clojure.basico.composicoes :as basico.composicao]
+            [praticando-clojure.basico.desestruturacao :as basico.desestruturacao]))
 
 
-(def media (basico.operadores/calculando-media-aluno 0 0))
-(basico.condicionais/aluno-aprovado media "Geovanne")
+;(def media (basico.operadores/calculando-media-aluno 0 0))
+;(basico.condicionais/aluno-aprovado media "Geovanne")
 
 (basico.listas/criando-lista-com-apostrofo)
 (basico.listas/criando-lista)
@@ -42,5 +44,4 @@
 (basico.keywords/pegando-elementos (basico.keywords/criando-mapa-com-keywords))
 (basico.keywords/pega-rotulos)
 
-
-
+(basico.desestruturacao/transacao-em-yuan-v2 (:euro (first basico.composicao/transacoes)))

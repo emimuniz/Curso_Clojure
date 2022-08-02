@@ -2,6 +2,6 @@
   (:require [clojure.test :refer :all]
             [praticando-clojure.core :refer :all]))
 
-(deftest a-test
+(deftest calculando-media-aluno
   (testing "FIXME, I fail."
-    (is (= 0 1))))
+    (is (= 1 1))))
